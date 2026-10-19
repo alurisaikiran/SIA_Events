@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIA Events — Every Moment, Perfected</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ══ NAV ══════════════════════════════════════════════ -->
+    <header class="site-nav" id="siteNav">
+        <a href="#home" class="nav-brand">
+            <span class="brand-sia">SIA</span>
+            <span class="brand-dot"></span>
+            <span class="brand-events">EVENTS</span>
+        </a>
+        <nav class="nav-center" id="navCenter">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#indian-events">Indian Events</a>
+            <a href="#weddings">Weddings</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-end">
+            <a href="https://www.instagram.com/siaeventsofficial/" target="_blank" class="nav-ig">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#contact" class="nav-book">Book Now</a>
+            <button class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ══ HERO — VIDEO IN HEADER ONLY ══════════════════════ -->
+    <section class="hero" id="home">
+        <!-- Video plays ONLY in this header section -->
+        <div class="hero-vid-wrap">
+            <video id="heroVid" autoplay muted loop playsinline preload="auto">
+                <source src="C:/Users/aluri/Downloads/gemini_generated_video_22315e9e.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- scrim is a direct child of hero, NOT inside vid-wrap, so it layers cleanly -->
+        <div class="hero-scrim"></div>
+
+        <div class="hero-body">
+            <p class="hero-eyebrow">Premium Event Experiences</p>
+            <h1 class="hero-title">
+                <span class="hl"><em>Every</em></span>
+                <span class="hl"><span>Moment</span></span>
+                <span class="hl"><em>Perfected.</em></span>
+            </h1>
+            <p class="hero-desc">
+                Weddings · Galas · Concerts · Private Celebrations
+            </p>
+            <div class="hero-btns">
+                <a href="#contact" class="hbtn-primary">Start Planning</a>
+                <a href="#about" class="hbtn-ghost">Discover More</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll-cue">
+            <span>Scroll</span>
+            <div class="cue-bar"><div class="cue-fill"></div></div>
+        </div>
+    </section>
+
+    <!-- ══ ABOUT — Image 1 (wedding reception) as BG ════════ -->
+    <section class="img-section" id="about"
+        style="--bg: url('C:/Users/aluri/Downloads/event.jpeg')">
+        <div class="img-section-bg"></div>
+        <div class="img-section-overlay" style="--tint: rgba(10,8,30,0.72)"></div>
+        <div class="img-section-content centered">
+            <span class="eyebrow">Who We Are</span>
+            <h2 class="section-h">
+                We Don't Just Plan Events.<br>
+                <em>We Create Memories.</em>
+            </h2>
+            <p class="section-p max560">
+                SIA Events is a full-service luxury event company dedicated to
+                turning your vision into a breathtaking, once-in-a-lifetime experience.
+                From the first flower to the final encore — every detail is ours to perfect.
+            </p>
+            <div class="stat-strip">
+                <div class="sstat">
+                    <b class="count" data-to="500">0</b><sup>+</sup>
+                    <span>Events</span>
+                </div>
+                <div class="sstat-div"></div>
+                <div class="sstat">
+                    <b class="count" data-to="15">0</b><sup>+</sup>
+                    <span>Years</span>
+                </div>
+                <div class="sstat-div"></div>
+                <div class="sstat">
+                    <b class="count" data-to="98">0</b><sup>%</sup>
+                    <span>Satisfied</span>
+                </div>
+                <div class="sstat-div"></div>
+                <div class="sstat">
+                    <b class="count" data-to="50">0</b><sup>+</sup>
+                    <span>Experts</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ SERVICES — solid dark section ═══════════════════ -->
+    <section class="services-section" id="services">
+        <div class="services-wrap">
+            <div class="services-left">
+                <span class="eyebrow light">What We Do</span>
+                <h2 class="section-h light">
+                    Our<br><em>Services</em>
+                </h2>
+                <p class="section-p light max400">
+                    We orchestrate every detail so you can live every moment.
+                </p>
+                <a href="#contact" class="outline-btn">Get a Quote</a>
+            </div>
+            <div class="services-right">
+                <div class="svc-row js-reveal">
+                    <span class="svc-n">01</span>
+                    <div class="svc-info">
+                        <h3>Wedding Planning</h3>
+                        <p>From intimate ceremonies to lavish receptions — your perfect day, designed flawlessly.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+                <div class="svc-row js-reveal" data-delay="80">
+                    <span class="svc-n">02</span>
+                    <div class="svc-info">
+                        <h3>Corporate Galas &amp; Conferences</h3>
+                        <p>Polished, professional events that reflect your brand's prestige.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+                <div class="svc-row js-reveal" data-delay="160">
+                    <span class="svc-n">03</span>
+                    <div class="svc-info">
+                        <h3>Concerts &amp; Live Shows</h3>
+                        <p>End-to-end production — staging, lighting, crowd management, and beyond.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+                <div class="svc-row js-reveal" data-delay="240">
+                    <span class="svc-n">04</span>
+                    <div class="svc-info">
+                        <h3>Private Celebrations</h3>
+                        <p>Birthdays, anniversaries, baby showers — personalised to the finest detail.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+                <div class="svc-row js-reveal" data-delay="320">
+                    <span class="svc-n">05</span>
+                    <div class="svc-info">
+                        <h3>Décor &amp; Floral Design</h3>
+                        <p>Visionary arrangements that transform any space into a work of art.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+                <div class="svc-row js-reveal" data-delay="400">
+                    <span class="svc-n">06</span>
+                    <div class="svc-info">
+                        <h3>Destination Events</h3>
+                        <p>Exotic locations, seamless logistics, unforgettable celebrations worldwide.</p>
+                    </div>
+                    <div class="svc-arrow">→</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ INDIAN EVENTS — Video Section ════════════════════ -->
+    <section class="indian-section" id="indian-events">
+        <div class="indian-vid-side">
+            <video class="indian-vid" autoplay muted loop playsinline>
+                <source src="C:/Users/aluri/Downloads/3636751-hd_1920_1080_30fps.mp4" type="video/mp4">
+                <!-- fallback to second stock video if first doesn't load -->
+                <source src="C:/Users/aluri/Downloads/8994831-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="indian-vid-glow"></div>
+        </div>
+        <div class="indian-text-side js-reveal">
+            <span class="eyebrow">Indian Celebrations</span>
+            <h2 class="section-h light">
+                A Riot of<br>Colour, Joy<br><em>&amp; Culture</em>
+            </h2>
+            <p class="section-p light">
+                From grand Baraat processions and glittering Sangeet nights to
+                sacred Mehendi ceremonies and lavish wedding feasts — SIA Events
+                brings the full magic of Indian celebrations to life with
+                authenticity, grandeur, and heart.
+            </p>
+            <ul class="indian-list">
+                <li>
+                    <span class="il-dot"></span>
+                    Sangeet &amp; Mehendi Nights
+                </li>
+                <li>
+                    <span class="il-dot"></span>
+                    Baraat &amp; Procession Management
+                </li>
+                <li>
+                    <span class="il-dot"></span>
+                    Cultural Galas &amp; Festivals
+                </li>
+                <li>
+                    <span class="il-dot"></span>
+                    Diwali, Navratri &amp; Eid Celebrations
+                </li>
+            </ul>
+            <a href="#contact" class="solid-btn">Plan an Indian Event</a>
+        </div>
+    </section>
+
+    <!-- ══ WEDDINGS — Image 2 (outdoor ceremony) as BG ══════ -->
+    <section class="img-section" id="weddings"
+        style="--bg: url('C:/Users/aluri/Downloads/Gemini_Generated_Image_cw5w0vcw5w0vcw5w.jpeg')">
+        <div class="img-section-bg"></div>
+        <div class="img-section-overlay" style="--tint: rgba(5,25,15,0.65)"></div>
+        <div class="img-section-content left-align">
+            <span class="eyebrow">Weddings</span>
+            <h2 class="section-h huge">
+                Vows Beneath<br><em>Open Skies</em>
+            </h2>
+            <p class="section-p max480">
+                There's nothing quite like exchanging vows surrounded by nature's beauty.
+                Our outdoor wedding ceremonies combine elegant décor, flawless logistics,
+                and deeply personal touches to create a day you'll remember forever.
+            </p>
+            <a href="#contact" class="solid-btn">Plan Your Wedding</a>
+        </div>
+    </section>
+
+    <!-- ══ CONCERTS — Image 3 (concert) as BG ═══════════════ -->
+    <section class="img-section" id="concerts"
+        style="--bg: url('C:/Users/aluri/Downloads/Gemini_Generated_Image_uw4vhuw4vhuw4vhu.jpeg')">
+        <div class="img-section-bg"></div>
+        <div class="img-section-overlay" style="--tint: rgba(20,5,40,0.70)"></div>
+        <div class="img-section-content right-align">
+            <span class="eyebrow">Live Events</span>
+            <h2 class="section-h huge">
+                Energy That<br><em>Moves Thousands</em>
+            </h2>
+            <p class="section-p max480">
+                From intimate acoustic sets to massive music festivals — we handle every
+                aspect of live production so you can focus on the performance.
+                Lights, sound, crowd, stage. We've got it all.
+            </p>
+            <a href="#contact" class="solid-btn">Book a Show</a>
+        </div>
+    </section>
+
+    <!-- ══ GALLERY ══════════════════════════════════════════ -->
+    <section class="gallery-section" id="gallery">
+        <div class="gallery-head js-reveal">
+            <span class="eyebrow light">Portfolio</span>
+            <h2 class="section-h light">Moments We've <em>Captured</em></h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="g-item g-tall js-reveal">
+                <div class="g-bg" style="background-image:url('C:/Users/aluri/Downloads/event.jpeg')"></div>
+                <div class="g-cap">Wedding Reception</div>
+            </div>
+            <div class="g-item js-reveal" data-delay="100">
+                <div class="g-bg" style="background-image:url('C:/Users/aluri/Downloads/Gemini_Generated_Image_cw5w0vcw5w0vcw5w.jpeg')"></div>
+                <div class="g-cap">Garden Ceremony</div>
+            </div>
+            <div class="g-item js-reveal" data-delay="200">
+                <div class="g-bg" style="background-image:url('C:/Users/aluri/Downloads/Gemini_Generated_Image_uw4vhuw4vhuw4vhu.jpeg')"></div>
+                <div class="g-cap">Live Concert</div>
+            </div>
+            <div class="g-item g-wide js-reveal" data-delay="150">
+                <div class="g-bg" style="background-image:url('C:/Users/aluri/Downloads/Gemini_Generated_Image_cw5w0vcw5w0vcw5w.jpeg'); background-position:top;"></div>
+                <div class="g-cap">Floral Arch Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ TESTIMONIALS — Image 1 as parallax bg ════════════ -->
+    <section class="img-section testi-section"
+        style="--bg: url('C:/Users/aluri/Downloads/event.jpeg')">
+        <div class="img-section-bg"></div>
+        <div class="img-section-overlay" style="--tint: rgba(5,5,20,0.82)"></div>
+        <div class="img-section-content centered">
+            <span class="eyebrow">Kind Words</span>
+            <h2 class="section-h" style="font-size:clamp(26px,3.5vw,48px); margin-bottom:50px;">
+                What Our Clients Say
+            </h2>
+            <div class="testi-wrap">
+                <div class="testi-slider" id="testiSlider">
+                    <div class="tcard active">
+                        <div class="tcard-quote">&ldquo;</div>
+                        <p>SIA Events made our wedding feel like a fairy tale. Every single detail was considered — from the florals to the live band. It was beyond anything we imagined.</p>
+                        <div class="tcard-author">
+                            <div class="tav">SM</div>
+                            <div>
+                                <strong>Sarah &amp; Michael</strong>
+                                <span>Wedding, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="tcard-quote">&ldquo;</div>
+                        <p>Our corporate gala was executed with incredible professionalism. Guests are still talking about it. SIA Events is our go-to partner for every event from now on.</p>
+                        <div class="tcard-author">
+                            <div class="tav">RK</div>
+                            <div>
+                                <strong>Raj Kumar</strong>
+                                <span>CEO, TechSolutions Ltd.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="tcard-quote">&ldquo;</div>
+                        <p>The concert production was phenomenal — staging, lighting, sound, crowd management, all perfect. SIA Events delivered a world-class show without breaking a sweat.</p>
+                        <div class="tcard-author">
+                            <div class="tav">AP</div>
+                            <div>
+                                <strong>Arjun Patel</strong>
+                                <span>Festival Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-nav">
+                    <button id="tPrev">&#8592;</button>
+                    <div class="tdots" id="tdots">
+                        <span class="td active"></span>
+                        <span class="td"></span>
+                        <span class="td"></span>
+                    </div>
+                    <button id="tNext">&#8594;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ CONTACT ══════════════════════════════════════════ -->
+    <section class="contact-section" id="contact">
+        <div class="contact-wrap">
+            <div class="contact-left js-reveal">
+                <span class="eyebrow light">Get In Touch</span>
+                <h2 class="section-h light">
+                    Let's Build<br>Something<br><em>Extraordinary</em>
+                </h2>
+                <p class="section-p light">
+                    Share your idea with us — big or small, intimate or grand.
+                    We'll make it unforgettable.
+                </p>
+                <div class="c-socials">
+                    <a href="https://www.facebook.com/mysiaevents/" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/siaeventsofficial/" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Instagram
+                    </a>
+                </div>
+            </div>
+            <div class="contact-right js-reveal" data-delay="120">
+                <form id="cForm">
+                    <div class="f-row">
+                        <div class="f-field">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="f-field">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="f-row">
+                        <div class="f-field">
+                            <select name="type">
+                                <option value="" disabled selected>Event Type</option>
+                                <option>Wedding</option>
+                                <option>Corporate Event</option>
+                                <option>Concert / Show</option>
+                                <option>Private Celebration</option>
+                                <option>Destination Event</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="f-field">
+                            <input type="date" name="date">
+                        </div>
+                    </div>
+                    <div class="f-field">
+                        <textarea name="message" rows="4" placeholder="Tell us about your dream event…"></textarea>
+                    </div>
+                    <button type="submit" class="solid-btn full-w" id="cSubmit">Send Message</button>
+                    <p class="f-success" id="fSuccess">Message sent! We'll be in touch very soon.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ════════════════════════════════════════════ -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="brand-sia">SIA</span>
+                <span class="brand-dot"></span>
+                <span class="brand-events">EVENTS</span>
+            </div>
+            <nav class="footer-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#weddings">Weddings</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/mysiaevents/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/siaeventsofficial/" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-base">
+            <p>© 2024 SIA Events — Crafting Unforgettable Moments</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
